@@ -1,0 +1,168 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body{
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding-bottom: 3em;
+  position: relative;
+  background-color: black;
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(59, 58, 58);
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+   height: 50px;
+   margin-right: 10px;
+}
+nav a{
+  margin-right: 1.5rem;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover{
+  color: rgb(0, 140, 255);
+}
+@media (max-width:700px){
+  header{
+    flex-direction: column;
+  }
+  nav{
+    padding: 10px opx;
+  }
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+p {
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid rgb(0, 140, 255);
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  background: rgb(0, 140, 255);
+}
+
+.content {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-pagina {
+  padding-top: 20px;
+  height: max-content;
+  width: auto;
+  background: black; 
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
+
+.nes {
+  padding-top: 20px;
+  background: url(NESimagen.jpg) no-repeat center;
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
+
+
+.contain {
+  max-width: 1055px;
+  margin: 0 auto;
+}
+
+.ps1 {
+  padding-top: 20px;
+  background: url(imagenps1.jpg) no-repeat center;
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
+
+.ps2 {
+  padding-top: 20px;
+  background: url(imagenps2.jpg) no-repeat center;
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
+
+.contenedor_imagenes{
+   display: flex;
+   width: 85%;
+   margin: auto;
+}
+.contenedor_imagenes .imagen{
+  width: 32%;
+  position: relatived;
+  height: 250px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75) 
+}
+
+.imagen img{
+  width: 148px;
+  height: 210px;
+}
+
+
+
+.atari {
+  padding-top: 20px;
+  background: url(atari.jpg) no-repeat center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-size:cover;
+}
+footer{
+  background-color: rgb(59, 58, 58);
+  padding: 1em 0;
+  text-align: center;
+ position: absolute;
+  margin-top: auto;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  color: white;
+}
+
+h6{
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
+
+
